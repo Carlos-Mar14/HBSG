@@ -25,7 +25,7 @@ const ctx = canvas.getContext("2d");
 function drawHappyBirthdayText(ctx, x, y) {
   ctx.font = '36px "Inclusive Sans"';
   ctx.textAlign = "center";
-  ctx.fillStyle = "#FF69B4"; // Color rosa pastel
+  ctx.fillStyle = "#000"; // Color rosa pastel
   ctx.fillText("¡Feliz Cumpleaños!!!", x, y - 120); // Aumentamos el espacio vertical
 }
 
